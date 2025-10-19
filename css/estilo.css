@@ -1,0 +1,144 @@
+ {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fffaf7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff914d;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #ffd6a5;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin: 0 15px;
+  /* ANOTAÇÃO: Transição suave para o efeito hover. */
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff914d;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 12px auto;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #ff914d;
+  color: white;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+/* Centralizar títulos */
+h1, h2, h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, button {
+  /* ANOTAÇÃO: Garante que a fonte seja herdada, mantendo a consistência. */
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%; /* Garante que ocupem o espaço do contêiner */
+}
+
+.fieldset-grid {
+  border: 1px solid #ddd; /* Um leve contorno para o fieldset */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 0 20px 0;
+}
+
+.fieldset-grid legend {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  padding: 0 10px; /* Evita que o texto cole na borda */
+}
+
+.fieldset-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 20px;
+  align-items: start;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  grid-column: 1 / -1;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .fieldset-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+button {
+  background-color: #ff914d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  /* ANOTAÇÃO: Transição suave para o efeito hover. */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6f00;
+}
