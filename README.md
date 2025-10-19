@@ -1,4 +1,4 @@
-Site HTML5,CSS3 e JAVASCRIPT da ONG Patinhas Felizes — resgate, cuidado e adoção de animais
+**Site HTML5,CSS3 e JAVASCRIPT da ONG Patinhas Felizes — resgate, cuidado e adoção de animais**
 # 🐾 ONG Patinhas Felizes
 
 Bem-vindo ao projeto **Patinhas Felizes**, uma plataforma desenvolvida em **HTML5 semântico,CSS3 externo e JAVASCRIPT modular** com o objetivo de divulgar o trabalho de uma ONG dedicada ao **resgate, cuidado e adoção de animais abandonados**.
